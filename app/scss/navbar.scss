@@ -1,0 +1,36 @@
+
+.navbar{
+    
+    margin: 50px 50px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+    
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    li{
+        padding: 0 20px;
+
+        a{
+            text-decoration: none;
+            font-size: 1rem;
+            color: hsl(243, 87%, 12%);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s ease-in 0s;
+        }
+
+        a:hover{
+            color: hsl(170, 45%, 43%);
+        }
+    }
+   
+}

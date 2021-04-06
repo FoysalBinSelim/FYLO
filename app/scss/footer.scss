@@ -1,0 +1,129 @@
+footer{
+    padding: 100px 30px;
+    background:  hsl(243, 87%, 12%);
+    color: white;
+    
+.footerlogo{
+    
+    filter: saturate(10000%) grayscale(100%) invert(100%);
+}
+
+.footernavs {
+    margin-top: 15px;
+    margin-left: -170px;
+    display: flex;
+    justify-content: space-around;
+   
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            padding: 10px 0;
+
+            h5{
+                padding: 0 15px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                cursor: pointer;
+                transition: all 0.4s ease-in 0s;
+
+            }
+
+            h5:hover{
+                color: hsl(224, 93%, 58%);
+            }
+            
+        }
+    }
+
+    .footnav-1{
+       
+       ul{
+           
+           display: flex;
+           flex-direction: column;
+
+           li{
+               padding: 10px 0;
+               list-style: none;
+              
+
+               a{
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    color: white;
+                    cursor: pointer;
+                    transition: all 0.4s ease-in 0s;
+               }
+
+               a:hover{
+                color: hsl(224, 93%, 58%);
+            }
+           }
+
+       }
+        
+    }
+
+    .footnav-2{
+       
+        ul{
+            
+            display: flex;
+            flex-direction: column;
+ 
+            li{
+                padding: 10px 0;
+                list-style: none;
+               
+ 
+                a{
+                     text-decoration: none;
+                     font-size: 1rem;
+                     font-family: 'Open Sans', sans-serif;
+                     font-weight: 400;
+                     color: white;
+                     cursor: pointer;
+                     transition: all 0.4s ease-in 0s;
+                }
+                a:hover{
+                    color: hsl(224, 93%, 58%);
+                }
+            }
+ 
+        }
+         
+     }
+
+     .social-media{
+            display: flex;
+            justify-content: space-between;
+           
+
+            a{
+                padding: 0 15px;
+
+
+                i{
+                   
+                    filter: saturate(10000%) grayscale(100%) invert(100%);
+                    cursor: pointer;
+                    transition: all 0.4s ease-in 0s;
+                }
+                i:hover{
+                    filter: unset;
+                }
+
+            }
+            
+     }
+    
+}
+
+}

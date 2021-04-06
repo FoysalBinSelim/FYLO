@@ -1,0 +1,100 @@
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar{
+      
+        ul {
+            padding-left: 10px;
+            display: flex;
+            
+            justify-content: space-around;
+            
+                li{
+                    padding: 0 20px;
+
+
+                    a{
+                        
+                        font-size: small;
+                    }
+                }
+
+            }
+    }
+
+
+     .hero{
+       
+         flex-direction: column-reverse;
+         align-items: center;
+         margin: 10px 50px;
+         text-align: center;
+
+         .left-flex{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             
+        
+             input{
+                
+                 min-width: 80%;
+
+             }
+
+             a{  
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 10px 100px;
+                display: inline-block;
+                text-decoration: none;
+                background-color: hsl(224, 93%, 58%);
+                width: 80%;
+                font-family: 'Open Sans',sans-serif;
+                font-size: 1rem;
+                color:aqua;
+                cursor: pointer;
+                transition: all 0.3s ease-in 0s;
+                
+            }
+            a:hover{
+                opacity: .70;
+            }
+         }
+        
+     }
+
+     .work{
+         flex-direction: column-reverse;
+         align-items: center;
+         margin: 10px 50px;
+         text-align: center;
+    }
+
+
+    .access{
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+
+
+         a{
+             width: 100%;
+         }
+
+    }
+
+
+    footer{
+        
+
+       .footernavs{
+           margin-left: unset;
+
+       }
+    
+    }
+
+
+}
